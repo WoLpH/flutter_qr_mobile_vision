@@ -31,7 +31,8 @@ class QrCamera extends StatefulWidget {
         super(key: key);
 
   final BoxFit fit;
-  final ValueChanged<String?> qrCodeCallback;
+  final qrCodeCallback;
+  // final ValueChanged<String?> qrCodeCallback;
   final Widget? child;
   final WidgetBuilder notStartedBuilder;
   final WidgetBuilder offscreenBuilder;
